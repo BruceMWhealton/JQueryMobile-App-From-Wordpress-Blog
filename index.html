@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery Mobile Web Apps</title>
+
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> 
+  <script>
+    $(document).on("mobileinit", function(evt) {
+      $.mobile.defaultPageTransition = "flip";
+    });
+  </script>
+  <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script> 
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="css/themes/fwwd.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" /> 
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+  <section data-role="page" id="home">
+   <article data-role="content">
+      <img src="images/logo.png" alt="Future Wave Web Development Logo">
+
+      <div data-role="controlgroup">
+        <a href="#semWebPosts" class="ui-btn ui-icon-edit ui-btn-icon-left
+            ui-corner-all ui-btn-b">Semantic Web News</a>
+        <a href="#techNewsPosts" class="ui-btn ui-icon-video ui-btn-icon-left
+            ui-corner-all ui-btn-b">Tech News</a>
+        <a href="#computingNewsPosts" class="ui-btn ui-icon-camera ui-btn-icon-left
+            ui-corner-all ui-btn-b">Computing News</a>
+        <a href="#scienceNewsPosts" class="ui-btn ui-icon-comment ui-btn-icon-left
+            ui-corner-all ui-btn-b">Science News</a>
+        <a href="#webDevDesInfoPosts" class="ui-btn ui-icon-comment ui-btn-icon-left
+            ui-corner-all ui-btn-b">Web Design&Development Trends</a>
+      </div>
+   </article><!-- content -->
+   <footer data-theme="c" data-role="footer" data-position="fixed">
+      <nav data-role="navbar">
+        <ul>
+          <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+          <li><a href="#" class="ui-btn ui-icon-video ui-btn-icon-top">Videos</a></li>
+          <li><a href="#" class="ui-btn ui-icon-camera ui-btn-icon-top">Photos</a></li>
+          <li><a href="#" class="ui-btn ui-icon-comment ui-btn-icon-top">Tweets</a></li>
+        </ul>
+      </nav>      
+   </footer><!-- footer -->
+  </section><!-- home -->
+
+  <section data-role="page" class="header_two" id="semWebPosts">
+    <header data-theme="c" data-role="header">
+      <h1>Future Wave - Semantic Web News</h1>
+      <a href="#home" class="ui-btn-left ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+            ui-icon-back" data-rel="back" data-theme="b">Back</a>
+      <a href="#info" class="ui-btn-right ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+          ui-icon-info">Info</a>
+   </header><!-- header -->
+  <!-- header -->
+   <div data-role="content" id="semWebPostList">
+
+   </div><!-- content -->
+   <footer data-theme="c" data-role="footer" data-position="fixed">
+      <nav data-role="navbar">
+        <ul>
+          <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+          <li><a href="#" class="ui-btn ui-icon-edit ui-btn-icon-top">Blog</a></li>
+          <li><a href="#" class="ui-btn ui-icon-video ui-btn-icon-top">Videos</a></li>
+          <li><a href="#" class="ui-btn ui-icon-camera ui-btn-icon-top">Photos</a></li>
+          <li><a href="#" class="ui-btn ui-icon-comment ui-btn-icon-top">Tweets</a></li>
+        </ul>
+      </nav>      
+   </footer><!-- footer -->
+  </section><!-- semWebPosts -->
+  <section data-role="page" class="header_default" id="techNewsPosts">
+   <header data-theme="c" data-role="header">
+      <h1>Future Wave - Tech News</h1>
+      <a href="#home" class="ui-btn-left ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+            ui-icon-home">Home</a>
+      <a href="#info" class="ui-btn-right ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+          ui-icon-info">Info</a>
+   </header><!-- header -->
+   <div data-role="content" id="techNewsPostList">
+
+   </div><!-- content -->
+   <footer data-theme="c" data-role="footer" data-position="fixed">
+      <nav data-role="navbar">
+        <ul>
+          <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+          <li><a href="#" class="ui-btn ui-icon-edit ui-btn-icon-top">Blog</a></li>
+          <li><a href="#" class="ui-btn ui-icon-video ui-btn-icon-top">Videos</a></li>
+          <li><a href="#" class="ui-btn ui-icon-camera ui-btn-icon-top">Photos</a></li>
+          <li><a href="#" class="ui-btn ui-icon-comment ui-btn-icon-top">Tweets</a></li>
+        </ul>
+      </nav>      
+   </footer><!-- footer -->
+  </section><!-- Tech News Posts -->
+  <section data-role="page" class="header_default" id="computingNewsPosts">
+     <header data-theme="c" data-role="header">
+        <h1>Future Wave - Tech News</h1>
+        <a href="#home" class="ui-btn-left ui-btn ui-btn-inline
+            ui-btn-icon-notext ui-mini ui-corner-all
+              ui-icon-home">Home</a>
+        <a href="#info" class="ui-btn-right ui-btn ui-btn-inline
+            ui-btn-icon-notext ui-mini ui-corner-all
+            ui-icon-info">Info</a>
+     </header><!-- header -->
+     <div data-role="content" id="computingNewsPostList">
+
+     </div><!-- content -->
+     <footer data-theme="c" data-role="footer" data-position="fixed">
+        <nav data-role="navbar">
+          <ul>
+            <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+            <li><a href="#" class="ui-btn ui-icon-edit ui-btn-icon-top">Blog</a></li>
+            <li><a href="#" class="ui-btn ui-icon-video ui-btn-icon-top">Videos</a></li>
+            <li><a href="#" class="ui-btn ui-icon-camera ui-btn-icon-top">Photos</a></li>
+            <li><a href="#" class="ui-btn ui-icon-comment ui-btn-icon-top">Tweets</a></li>
+          </ul>
+        </nav>      
+     </footer><!-- footer -->
+    </section><!-- Computing News Posts -->
+  <section data-role="page" class="header_default" id="scienceNewsPosts">
+     <header data-theme="c" data-role="header">
+        <h1>Future Wave - Tech News</h1>
+        <a href="#home" class="ui-btn-left ui-btn ui-btn-inline
+            ui-btn-icon-notext ui-mini ui-corner-all
+              ui-icon-home">Home</a>
+        <a href="#info" class="ui-btn-right ui-btn ui-btn-inline
+            ui-btn-icon-notext ui-mini ui-corner-all
+            ui-icon-info">Info</a>
+     </header><!-- header -->
+     <div data-role="content" id="scienceNewsPostList">
+
+     </div><!-- content -->
+     <footer data-theme="c" data-role="footer" data-position="fixed">
+        <nav data-role="navbar">
+          <ul>
+            <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+            <li><a href="#" class="ui-btn ui-icon-video ui-btn-icon-top">Videos</a></li>
+            <li><a href="#" class="ui-btn ui-icon-camera ui-btn-icon-top">Photos</a></li>
+            <li><a href="#" class="ui-btn ui-icon-comment ui-btn-icon-top">Tweets</a></li>
+          </ul>
+        </nav>      
+     </footer><!-- footer -->
+    </section><!-- Science News Posts -->    
+<section data-role="page" class="header_default" id="webDevDesInfoPosts">
+     <header data-theme="c" data-role="header">
+        <h1>Future Wave - Tech News</h1>
+        <a href="#home" class="ui-btn-left ui-btn ui-btn-inline
+            ui-btn-icon-notext ui-mini ui-corner-all
+              ui-icon-home">Home</a>
+        <a href="#info" class="ui-btn-right ui-btn ui-btn-inline
+            ui-btn-icon-notext ui-mini ui-corner-all
+            ui-icon-info">Info</a>
+     </header><!-- header -->
+     <div data-role="content" id="webDevDesInfoPostList">
+
+     </div><!-- content -->
+     <footer data-theme="c" data-role="footer" data-position="fixed">
+        <nav data-role="navbar">
+          <ul>
+            <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+            <li><a href="#" class="ui-btn ui-icon-video ui-btn-icon-top">Videos</a></li>
+            <li><a href="#" class="ui-btn ui-icon-camera ui-btn-icon-top">Photos</a></li>
+            <li><a href="#" class="ui-btn ui-icon-comment ui-btn-icon-top">Tweets</a></li>
+          </ul>
+        </nav>      
+     </footer><!-- footer -->
+    </section><!-- Science News Posts -->      
+  <section data-role="page" id="singlePost">
+   <header data-theme="c" data-role="header">
+      <h1>Future Wave - Tech News</h1>
+      <a href="#home" class="ui-btn-left ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+            ui-icon-home">Home</a>
+      <a href="#info" class="ui-btn-right ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+          ui-icon-info">Info</a>
+   </header><!-- header -->
+   <article data-role="content">
+      <div id="singlepost"></div>
+     
+   </article><!-- content -->
+   <footer data-theme="c" data-role="footer" data-position="fixed">
+      <nav data-role="navbar">
+        <ul>
+          <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+          <li><a href="#" class="ui-btn ui-icon-video ui-btn-icon-top">Videos</a></li>
+          <li><a href="#" class="ui-btn ui-icon-camera ui-btn-icon-top">Photos</a></li>
+          <li><a href="#" class="ui-btn ui-icon-comment ui-btn-icon-top">Tweets</a></li>
+        </ul>
+      </nav>      
+   </footer><!-- footer -->
+  </section><!-- home -->
+
+  <section id="videos" data-role="page" data-title="Videos">
+   <header data-theme="c" data-role="header">
+      <h1>Future Wave - Tech News</h1>
+      <a href="#" class="ui-btn-left ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+            ui-icon-back" data-rel="back">Back</a>
+      <a href="#info" class="ui-btn-right ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+          ui-icon-info">Info</a>
+   </header><!-- header -->
+    <div data-role="content">
+      <div class="ui-grid-a" id="videoList"></div>
+
+    </div><!-- content -->
+   <footer data-theme="c" data-role="footer" data-position="fixed">
+      <nav data-role="navbar">
+        <ul>
+          <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+          <li><a href="#" class="ui-btn ui-icon-video ui-btn-icon-top">Videos</a></li>
+          <li><a href="#" class="ui-btn ui-icon-camera ui-btn-icon-top">Photos</a></li>
+          <li><a href="#" class="ui-btn ui-icon-comment ui-btn-icon-top">Tweets</a></li>
+        </ul>
+      </nav>      
+   </footer><!-- footer -->
+  </section><!-- Videos -->
+  <section id="videoplayer" data-role="page" data-title="Video Player">
+   <header data-theme="c" data-role="header">
+      <h1>Future Wave - Tech Video Player</h1>
+      <a href="#" class="ui-btn-left ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+            ui-icon-back" data-rel="back">Back</a>
+      <a href="#info" class="ui-btn-right ui-btn ui-btn-inline
+          ui-btn-icon-notext ui-mini ui-corner-all
+          ui-icon-info">Info</a>
+   </header><!-- header -->
+    <div data-role="content">
+      <div id="myplayer"></div>
+
+    </div>
+   <footer data-theme="c" data-role="footer" data-position="fixed">
+      <nav data-role="navbar">
+        <ul>
+          <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+          <li><a href="#" class="ui-btn ui-icon-video ui-btn-icon-top">Videos</a></li>
+          <li><a href="#" class="ui-btn ui-icon-camera ui-btn-icon-top">Photos</a></li>
+          <li><a href="#" class="ui-btn ui-icon-comment ui-btn-icon-top">Tweets</a></li>
+        </ul>
+      </nav>      
+   </footer><!-- footer -->
+  </section><!-- Videos -->
+
+
+
+
+  <script src="js/script.js"></script>
+  <script src="http://futurewavewebdevelopment.com/wp/category/semantic-web/?json=1&count=100&callback=listSemWebPosts"></script>
+  <script src="http://futurewavewebdevelopment.com/wp/category/tech-news/?json=1&count=100&callback=listTechNewsPosts"></script>
+  <script src="http://futurewavewebdevelopment.com/wp/category/computing/?json=1&count=100&callback=listComputingNewsPosts"></script>
+  <script src="http://futurewavewebdevelopment.com/wp/category/sciencenews/?json=1&count=100&callback=listScienceNewsPosts"></script>
+  <script src="http://futurewavewebdevelopment.com/wp/category/web-development-resources/?json=1&count=100&callback=listWebDevDesInfoPosts"></script>
+</body>
+</html>

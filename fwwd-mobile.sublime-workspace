@@ -1,0 +1,328 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"out",
+				"output"
+			],
+			[
+				"search",
+				"searchposts"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"rout",
+				"routeParams"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"route",
+				"routeProvider"
+			],
+			[
+				"new",
+				"new_age"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/script.js",
+			"settings":
+			{
+				"buffer_size": 4109,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 12376,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 1145,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"cs",
+				"Set Syntax: CSS3"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: jQuery Mobile starter page"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Bruce/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Bruce/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Bruce/AppData/Roaming/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/D/Bitnami/rubystack-1.9.3-24/apache2/htdocs/jqmwebapps/index.html",
+		"/D/Bitnami/rubystack-1.9.3-24/apache2/htdocs/jqmwebapps/js/script.js",
+		"/E/nodejs/sample/package.json",
+		"/E/nodejs/first/hello.js",
+		"/E/sandbox/fwwd-mobile/index.html",
+		"/K/TrainingTechOtherAndMisc/Lynda.com/jQueryMobileWebApps1.4/exercise files/02_03/start/jqmwebapps/js/jquery.js",
+		"/E/sandbox/fwwd-mobile/css/style.css",
+		"/E/sandbox/fwwd-mobile/js/script.js",
+		"/E/sandbox/quincenc-mobile/css/style.css",
+		"/E/sandbox/quincenc-mobile/index.html",
+		"/E/sandbox/explore_california2/resources.html",
+		"/C/Users/Bruce/AppData/Roaming/Sublime Text 2/Packages/Line Endings Unify/README.md",
+		"/E/sandbox/jqmwebapps/index.html",
+		"/E/sandbox/jqmwebapps/css/style.css",
+		"/E/sandbox/docroot/index.html",
+		"/E/sandbox/angular-contacts/edit.html",
+		"/E/sandbox/angular-contacts/list.html",
+		"/E/sandbox/angular-contacts/contacts.js",
+		"/E/sandbox/angular-contacts/index.html",
+		"/E/sandbox/angular-contacts/app/index.html",
+		"/E/sandbox/mycontacts/app/Config/routes.php",
+		"/E/sandbox/mycontacts/app/Controller/AppController.php",
+		"/E/sandbox/mycontacts/app/Controller/PagesController.php",
+		"/E/sandbox/mycontacts/app/Model/Contact.php",
+		"/E/sandbox/mycontacts/app/Config/core.php",
+		"/E/sandbox/mycontacts/app/Config/database.php"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/script.js",
+					"settings":
+					{
+						"buffer_size": 4109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								795,
+								795
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 12376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11199,
+								11199
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2999.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 1145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1110,
+								1110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/E/sandbox/mycontacts/contacts.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
