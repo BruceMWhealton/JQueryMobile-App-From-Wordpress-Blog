@@ -57,7 +57,7 @@ function listTechNewsPosts(data) {
 	$('#techNewsPostList').html(output);
 } // listTechNewsPosts
 
-function listComputingNewsPosts(data) {
+function listAndroidNewsPosts(data) {
 	var output = '<form class="ui-filterable"><input id="searchposts" data-type="search"></form>';
 	output += '<ul data-role="listview" data-filter="true" data-input="#searchposts" data-inset="true">';
 	$.each(data.posts, function(key, val) {
@@ -75,23 +75,31 @@ function listComputingNewsPosts(data) {
 		output += '</li>';
 	}); // go through each post
 	output +='</ul>';
-	$('#computingNewsPostList').html(output);
+	$('#androidNewsPostList').html(output);
 } // listComputingPosts
 
-function listScienceNewsPosts(data) {
+function listSwEngAndWebDevPosts(data) {
 	var output = '<form class="ui-filterable"><input id="searchposts" data-type="search"></form>';
 	output += '<ul data-role="listview" data-filter="true" data-input="#searchposts" data-inset="true">';
+
 	$.each(data.posts, function(key, val) {
+
+	var tempDiv = document.createElement("tempDiv");
+    	tempDiv.innerHTML = val.excerpt;
+    	$("a", tempDiv).remove();
+    	var excerpt = tempDiv.innerHTML;
+
 		output += '<li>';
 		output += '<a href="#singlePost" onclick = "showPost(' + val.id  + ')">';
-		output += '<h3>' + val.title + '</h3>';
-		output += '<p>' + val.excerpt + '</p>';
+		output += '<h3>' + val.title_plain + '</h3>';
+		output += '<p>' + excerpt + '</p>';
 		output += '</a>';
 		output += '</li>';
 	}); // go through each post
 	output +='</ul>';
-	$('#scienceNewsPostList').html(output);
-} // listScienceMewsPosts
+
+	$('#swEngAndWebDevPostList').html(output);
+} // listSwAndWebDevPosts
 
 function listWebDevDesInfoPosts(data) {
 	var output = '<form class="ui-filterable"><input id="searchposts" data-type="search"></form>';

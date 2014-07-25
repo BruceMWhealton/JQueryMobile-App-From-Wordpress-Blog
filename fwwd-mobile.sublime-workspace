@@ -39,7 +39,7 @@
 			"file": "js/script.js",
 			"settings":
 			{
-				"buffer_size": 4109,
+				"buffer_size": 4116,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12376,
+				"buffer_size": 10973,
 				"line_ending": "Windows"
 			}
 		},
@@ -183,15 +183,15 @@
 					"file": "js/script.js",
 					"settings":
 					{
-						"buffer_size": 4109,
+						"buffer_size": 4116,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								795,
-								795
+								3453,
+								3453
 							]
 						],
 						"settings":
@@ -201,7 +201,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 1080.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -211,15 +211,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 12376,
+						"buffer_size": 10973,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11199,
-								11199
+								1338,
+								1338
 							]
 						],
 						"settings":
@@ -229,7 +229,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2999.0,
+						"translation.y": 290.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
